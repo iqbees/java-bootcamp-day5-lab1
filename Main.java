@@ -369,9 +369,7 @@ public class Main {
             reverse2.append(str2.charAt(i));
         }
 
-        int reversedNum = Integer.parseInt(reverse2.toString());
-
-        System.out.println("Reversed integer: " + reversedNum);
+        System.out.println("Reversed integer: " + reverse2);
 
         // 17 - Write a program to enter the numbers till the user wants and at the end the
         //program should display the largest and smallest numbers entered.
