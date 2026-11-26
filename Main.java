@@ -249,7 +249,7 @@ public class Main {
         if (seconds < 0) {
             System.out.println("Seconds must be greater than 0");
         } else {
-            int hours = seconds / 60 / 60;
+            int hours = seconds / 60 / 60 % 24;
             int minutes = seconds / 60 % 60;
             int remainingSeconds = seconds % 60;
 
